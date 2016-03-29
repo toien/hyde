@@ -1,27 +1,27 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      Pygments
+highlighter:      rouge # Pygments
 
 # Permalinks
-permalink:        /posts/:title
+permalink:        pretty # /posts/:title
 # relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Kwritin
+tagline:          'A coder blog'
+description:      'Stay thinking, stay seeking.'
 url:              http://toien.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
+  name:           'toien.L'
   url:            https://twitter.com/mdo
 
-paginate:         5
-gems:             ["jekyll-paginate", "jekyll-gist"]
+paginate:         2
+gems:             ['jekyll-paginate', 'jekyll-gist']
 
 # Custom vars
-version:          2.1.0
+version:          0.0.1
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/toien/hyde
